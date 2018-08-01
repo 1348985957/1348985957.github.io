@@ -1,0 +1,4 @@
+INSERT INTO `dede_addon17` VALUES('13','9','','','127.0.0.1','','http://www.adminbuy.cn');
+INSERT INTO `dede_addon17` VALUES('14','9','','','127.0.0.1','','http://sc.adminbuy.cn');
+INSERT INTO `dede_addon17` VALUES('15','9','','','127.0.0.1','','http://fang.adminbuy.cn');
+INSERT INTO `dede_addon17` VALUES('16','9','','','127.0.0.1','','http://www.adminbuy.cn');

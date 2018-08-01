@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="keywords" content="Html,技巧,简单,的,把,Table,转成,Div,许多" />
+<meta name="description" content="许多网页设计师都喜欢，将两个或者多个容器等高的并排放置，并在里面展示每个容器的内容，就象经典表格布局中的单元格控制几个栏目的位置，也喜欢容器的内容居中或顶部对齐显" />
+<title>Html技巧-简单的把Table转成Div-（自适应手机版）响应式新闻资讯网站源码 HTML5个人技术博客类织梦模板 - AB模板网 - Www.AdminBuy.Cn</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="/html5_blue/images/favicon.ico" />
+<link rel='stylesheet' id='_common-css'  href='/include/FCKeditor/editor/css/fck_editorarea.css' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" media="all" href="/html5_blue/css/style.css" />
+<link rel="stylesheet" type="text/css"  href="/html5_blue/css/font-awesome.min.css"/>
+<script type="text/javascript" src="/html5_blue/js/jquery.min.js"></script>
+<script type="text/javascript" src="/html5_blue/js/responsiveslides.min.js"></script>
+<script type="text/javascript" src="/html5_blue/js/yycm.js"></script>
+<link href="/include/kindeditor/plugins/runCode/runCode.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="/include/kindeditor/plugins/runCode/zztuku_runCode.js"></script>
+<script language="javascript" type="text/javascript" src="/include/js/dedeajax2.js"></script>
+</head>
+<body>
+<div class="top"> <span href="#" class="totop"></span>
+  <div class="topmenu">
+    <ul id="menu-top" class="wrap">
+      <li><a>本站有AB模板网提供技术支持 Www.AdminBuy.Cn</a></li>
+    </ul>
+  </div>
+  <div class="wrap page-header">
+    <h1 style="margin-top: 20px;"><a href="/" title="首页"><img src="/html5_blue/images/logo.png" width="" height="" border="0" alt=""></a></h1>
+    <span>我的网站，可以后台设置此处文字！</span>
+    <div class="contact">
+      <li><a href="http://wpa.qq.com/msgrd?v=3&uin=9490489&site=qq&menu=yes" target="_blank" title="QQ联系"><i class="fa fa-qq fa-2x"></i></a></li>
+      <li><a href="http://www.weibo.com/gooxao" target="_blank" title="新浪微博"><i class="fa fa-weibo fa-2x"></i></a></li>
+      <li><a href="http://t.qq.com/gooxao2" target="_blank" title="腾讯微博"><i class="fa fa-pinterest-square fa-2x"></i></a></li>
+    </div>
+  </div>
+  <div class="nav">
+    <div class="wrap zwrap">
+      <div class="navbar-header">
+        <li class="navbar-toggle"> <i class="fa fa-list fa-2x"></i> </li>
+        <li style="float:right;display:inline-block">
+          <div class="toggle-search"><i class="fa fa-search fa-2x"></i></div>
+        </li>
+        <li style="float:right;">
+          <div class="search-expand">
+            <div class="search-expand-inner">
+              <form onSubmit="return checkSearchForm()" method="post" name="formsearch" id="searchform" class="searchform themeform" action="/plus/search.php" >
+                <input type="text" class="search" name="q" onblur="if(this.value=='')this.value='按回车键搜索...';" onfocus="if(this.value=='按回车键搜索...')this.value='';" value="按回车键搜索..." placeholder="按回车键搜索">
+                <input type="hidden" value="title" name="show">
+                <input type="hidden" value="1" name="tempid">
+                <input type="hidden" value="news" name="tbname">
+                <input name="mid" value="1" type="hidden">
+                <input name="submit" value="search" type="hidden">
+              </form>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="navbar-collapse">
+        <ul>
+          <li class="menu-item current_page_item"><a href="/">首页</a></li>
+          <li class="menu-item "><a href="/html/">HTML技巧</a>
+            <ul class="sub-menu">
+              
+            </ul>
+          </li><li class="menu-item "><a href="/cms/">Cms文章</a>
+            <ul class="sub-menu">
+              
+            </ul>
+          </li><li class="menu-item "><a href="/News/">随心笔记</a>
+            <ul class="sub-menu">
+              
+            </ul>
+          </li><li class="menu-item "><a href="/liuyan/">给我留言</a>
+            <ul class="sub-menu">
+              
+            </ul>
+          </li><li class="menu-item "><a href="/fm/">关于博主</a>
+            <ul class="sub-menu">
+              
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="notic">
+    <div class="wrap subnotic"><i class="fa fa-bullhorn"></i> 该模板为AB模板网VIP资源，加入VIP即可下载全站所有模板，本站也承接仿站业务，联系QQ：94490489 </div>
+  </div>
+</div>
+
+<div class="wrap" >
+  <div class="main">
+    <div class="article">
+      <div class="map"><span> 当前位置：<a href='http://127.0.0.4/'>首页</a> > <a href='/cms/'>Cms文章</a> > 正文 </span> </div>
+      <div class="title">
+        <h1>Html技巧-简单的把Table转成Div</h1>
+        <div class="subtitle"> <span><i class="fa fa-clock-o"></i>06-05</span><span><i class="fa fa-eye"></i> <script src="/plus/count.php?view=yes&aid=10&mid=1"type='text/javascript' language="javascript"></script></span><span><i class="fa fa-folder-o"></i> <a href="" rel="category tag">Cms文章</a> </span><span> <i class="fa fa-tags"></i> </span> </div>
+      </div>
+   		<p>&nbsp;<span style="color: rgb(128, 128, 128); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; text-indent: 30px;">许多网页设计师都喜欢，将两个或者多个容器等高的并排放置，并在里面展示每个容器的内容，就象经典表格布局中的单元格控制几个栏目的位置，也喜欢容器的内容居中或顶部对齐显示。但是你又不喜欢用table来实现他，那怎么办呢？实现的方法很多，有根据视觉错觉实现的，有用JS控制使高度相等的，还有采用容器溢出部分隐藏和列的负底边界和正的内补丁相结合的方法来解决列高度相同的问题。其实有个简单的方法，使用display:table, display:table-row and display:table-cell 就可以实现，而且高度小的容器会自适应那些高度相对较高的，但是IE不支持这个属性，我们先不用去责备IE，相信以后会有所改善的。这里我制作了一个模型。</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 30px; text-indent: 30px; color: rgb(85, 85, 85); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px;"><span style="box-sizing: border-box; color: rgb(255, 0, 0);">先看看xhtml的结构：</span></p>
+<pre style="box-sizing: border-box; font-family: 'courier new'; font-size: 12px; width: 724.672px; margin-top: 20px; margin-bottom: 20px; padding-right: 20px; padding-left: 20px; line-height: 20px; color: rgb(248, 248, 212); word-wrap: break-word; border: none; border-radius: 4px; font-stretch: normal;"><ol class="dp-xml" style="box-sizing: border-box; margin-bottom: 30px; margin-left: 10px; border-left-color: rgb(255, 95, 83); color: rgb(92, 92, 92);"><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;</span><span class="tag-name" style="box-sizing: border-box;">div</span><span style="box-sizing: border-box;">&nbsp;</span><span class="attribute" style="box-sizing: border-box;">class</span><span style="box-sizing: border-box;">=</span><span class="attribute-value" style="box-sizing: border-box;">&quot;equal&quot;</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;&nbsp;</span></span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;</span><span class="tag-name" style="box-sizing: border-box;">div</span><span style="box-sizing: border-box;">&nbsp;</span><span class="attribute" style="box-sizing: border-box;">class</span><span style="box-sizing: border-box;">=</span><span class="attribute-value" style="box-sizing: border-box;">&quot;row&quot;</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;&nbsp;</span></span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;</span><span class="tag-name" style="box-sizing: border-box;">div</span><span style="box-sizing: border-box;">&nbsp;</span><span class="attribute" style="box-sizing: border-box;">class</span><span style="box-sizing: border-box;">=</span><span class="attribute-value" style="box-sizing: border-box;">&quot;one&quot;</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span class="tag" style="box-sizing: border-box;">&lt;/</span><span class="tag-name" style="box-sizing: border-box;">div</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;&nbsp;</span></span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;</span><span class="tag-name" style="box-sizing: border-box;">div</span><span style="box-sizing: border-box;">&nbsp;</span><span class="attribute" style="box-sizing: border-box;">class</span><span style="box-sizing: border-box;">=</span><span class="attribute-value" style="box-sizing: border-box;">&quot;two&quot;</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span class="tag" style="box-sizing: border-box;">&lt;/</span><span class="tag-name" style="box-sizing: border-box;">div</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;&nbsp;</span></span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;</span><span class="tag-name" style="box-sizing: border-box;">div</span><span style="box-sizing: border-box;">&nbsp;</span><span class="attribute" style="box-sizing: border-box;">class</span><span style="box-sizing: border-box;">=</span><span class="attribute-value" style="box-sizing: border-box;">&quot;three&quot;</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span class="tag" style="box-sizing: border-box;">&lt;/</span><span class="tag-name" style="box-sizing: border-box;">div</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;&nbsp;</span></span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;/</span><span class="tag-name" style="box-sizing: border-box;">div</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;&nbsp;</span></span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;/</span><span class="tag-name" style="box-sizing: border-box;">div</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;&nbsp;</span></span></li></ol></pre>
+<p style="box-sizing: border-box; margin: 0px 0px 30px; text-indent: 30px; color: rgb(85, 85, 85); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px;"><span style="box-sizing: border-box; color: rgb(255, 0, 0);">很简单不用解释就能看懂，但是这里给出一个table的结构，是不是很相似：</span></p>
+<pre style="box-sizing: border-box; font-family: 'courier new'; font-size: 12px; width: 724.672px; margin-top: 20px; margin-bottom: 20px; padding-right: 20px; padding-left: 20px; line-height: 20px; color: rgb(248, 248, 212); word-wrap: break-word; border: none; border-radius: 4px; font-stretch: normal;"><ol class="dp-xml" style="box-sizing: border-box; margin-bottom: 30px; margin-left: 10px; border-left-color: rgb(255, 95, 83); color: rgb(92, 92, 92);"><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;</span><span class="tag-name" style="box-sizing: border-box;">table</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;</span></span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;</span><span class="tag-name" style="box-sizing: border-box;">tr</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;</span></span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;</span><span class="tag-name" style="box-sizing: border-box;">td</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span class="tag" style="box-sizing: border-box;">&lt;/</span><span class="tag-name" style="box-sizing: border-box;">td</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;</span></span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;</span><span class="tag-name" style="box-sizing: border-box;">td</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span class="tag" style="box-sizing: border-box;">&lt;/</span><span class="tag-name" style="box-sizing: border-box;">td</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;</span></span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;</span><span class="tag-name" style="box-sizing: border-box;">td</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span class="tag" style="box-sizing: border-box;">&lt;/</span><span class="tag-name" style="box-sizing: border-box;">td</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;</span></span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;/</span><span class="tag-name" style="box-sizing: border-box;">tr</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;</span></span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;"><span class="tag" style="box-sizing: border-box;">&lt;/</span><span class="tag-name" style="box-sizing: border-box;">table</span><span class="tag" style="box-sizing: border-box;">&gt;</span><span style="box-sizing: border-box;">&nbsp;</span></span></li></ol></pre>
+<p style="box-sizing: border-box; margin: 0px 0px 30px; text-indent: 30px; color: rgb(85, 85, 85); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px;"><span style="box-sizing: border-box; color: rgb(255, 0, 0);">下来是css：</span></p>
+<pre style="box-sizing: border-box; font-family: 'courier new'; font-size: 12px; width: 724.672px; margin-top: 20px; margin-bottom: 20px; padding-right: 20px; padding-left: 20px; line-height: 20px; color: rgb(248, 248, 212); word-wrap: break-word; border: none; border-radius: 4px; font-stretch: normal;"><ol class="dp-xml" style="box-sizing: border-box; margin-bottom: 30px; margin-left: 10px; border-left-color: rgb(255, 95, 83); color: rgb(92, 92, 92);"><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;">.equal&nbsp;{&nbsp;</span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;">display:table;&nbsp;</span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;">border-collapse:separate;&nbsp;</span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;">}&nbsp;</span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;">.row&nbsp;{&nbsp;</span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;">display:table-row;&nbsp;</span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;">}&nbsp;</span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;">.row&nbsp;div&nbsp;{&nbsp;</span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;">display:table-cell;&nbsp;</span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;">}&nbsp;</span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;">.row&nbsp;.one&nbsp;{&nbsp;</span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;">width:200px;&nbsp;</span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;">}&nbsp;</span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;">.row&nbsp;.two&nbsp;{&nbsp;</span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;">width:200px;&nbsp;</span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;">}&nbsp;</span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;">.row&nbsp;.three&nbsp;{&nbsp;</span></li><li style="box-sizing: border-box;"><span style="box-sizing: border-box;">&nbsp;</span></li><li class="alt" style="box-sizing: border-box; color: rgb(255, 255, 255);"><span style="box-sizing: border-box;">}&nbsp;</span></li></ol></pre>
+<p style="box-sizing: border-box; margin: 0px 0px 30px; text-indent: 30px; color: rgb(85, 85, 85); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px;">解释：</p>
+<p style="box-sizing: border-box; margin: 0px 0px 30px; text-indent: 30px; color: rgb(85, 85, 85); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px;">1.dispaly:table;让层.equal作为块级元素的表格table显示，也就是将他作为一个表格</p>
+<p style="box-sizing: border-box; margin: 0px 0px 30px; text-indent: 30px; color: rgb(85, 85, 85); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px;">2.border-collapse:separate;边框独立，就像表格没有合并单元格以前</p>
+<p style="box-sizing: border-box; margin: 0px 0px 30px; text-indent: 30px; color: rgb(85, 85, 85); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px;">3.display:table-row;将.row作为表格行tr显示</p>
+<p style="box-sizing: border-box; margin: 0px 0px 30px; text-indent: 30px; color: rgb(85, 85, 85); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px;">4.display:table-cell;将.row的下级div作为表格单元格td显示</p>
+<p style="box-sizing: border-box; margin: 0px 0px 30px; text-indent: 30px; color: rgb(85, 85, 85); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px;">5.然后定义宽度</p>
+<p style="box-sizing: border-box; margin: 0px 0px 30px; text-indent: 30px; color: rgb(85, 85, 85); font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px;">这里还使用了 border-spacing:10px;来区别几个盒子，正如上面所陈述的，IE下不能正常显示，但是在：Mozilla 1.6, Opera 7.50, Safari 1.2.2, Firefox 0.8, OmniWeb 5b, Camino 0.8b, and Netscape 7.1经过测试均可以完美显示.</p>
+      <div class="postcopyright">
+        <p><strong>版权保护: </strong>转载请保留链接: <a href="http://127.0.0.4/cms/10.html" title="Html技巧-简单的把Table转成Div"> http://127.0.0.4/cms/10.html</a></p>
+      </div>
+      <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+      <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["mshare","qzone","tsina","bdysc","weixin","renren","tqq","tieba","douban","bdhome","sqq","mail","copy","print"],"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script> 
+    </div>
+    <div class="clear"></div>
+    <div class="con_pretext">
+      <ul>
+        <li class="first">上一篇：<a href='/cms/9.html'>dede简单点赞功能开发</a>  </li>
+        <li class="last">下一篇：<a href='/cms/11.html'>Dede简单搬家</a> </li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  
+<div class="sider">
+  <div class="right">
+    <div class="author" style="margin-bottom:20px">
+      <div class="topauthor"> <img alt="" src="/html5_blue/images/avatar.jpeg" class="avatar avatar-100 photo" height="100" width="100"> <span class="intag">博客主人</span><span class="names">AB模板网</span></br>
+        <span class="talk"> 男，文化程度不高性格有点犯二，已经20来岁至今未婚，闲着没事喜欢研究各种代码，资深技术宅。 </span> </div>
+      <span class="bot"></span> </div>
+    
+    <div class="subblock"> <img src="/html5_blue/images/3cd871e89f2f6eb8a3a032653a4f8018.jpg"> </div>
+    <div class="subblock">
+      <h3>推荐文章</h3>
+      <ul>
+        <li>
+          <div class="sideshow"><a href="/News/1.html" target="_ablank"  title="如果没有略缩图，就不会显示前面的图片！"> <img width='80' height='60' src='/uploads/170530/1-1F5301S915S8.gif' class='icon wp-post-image' alt='如果没有略缩图，就不会显示前面的图片！' title='如果没有略缩图，就不会显示前面的图片！' /> </a> <a href="/News/1.html" target="_ablank"  title="如果没有略缩图，就不会显示前面的图片！"> 如果没有略缩图，就不会显示前面的图片！ </a> <span class="datetime"> 2017/05/30 </span> </div>
+        </li>
+<li>
+          <div class="sideshow"><a href="/News/2.html" target="_ablank"  title="这个没有略缩图，不会显示前面的图片！">  </a> <a href="/News/2.html" target="_ablank"  title="这个没有略缩图，不会显示前面的图片！"> 这个没有略缩图，不会显示前面的图片！ </a> <span class="datetime"> 2016/06/05 </span> </div>
+        </li>
+<li>
+          <div class="sideshow"><a href="/cms/12.html" target="_ablank"  title="Dede两句代码增加自定义属性">  </a> <a href="/cms/12.html" target="_ablank"  title="Dede两句代码增加自定义属性"> Dede两句代码增加自定义属性 </a> <span class="datetime"> 2016/06/05 </span> </div>
+        </li>
+<li>
+          <div class="sideshow"><a href="/cms/11.html" target="_ablank"  title="Dede简单搬家">  </a> <a href="/cms/11.html" target="_ablank"  title="Dede简单搬家"> Dede简单搬家 </a> <span class="datetime"> 2016/06/05 </span> </div>
+        </li>
+<li>
+          <div class="sideshow"><a href="/cms/10.html" target="_ablank"  title="Html技巧-简单的把Table转成Div">  </a> <a href="/cms/10.html" target="_ablank"  title="Html技巧-简单的把Table转成Div"> Html技巧-简单的把Table转成Div </a> <span class="datetime"> 2016/06/05 </span> </div>
+        </li>
+
+      </ul>
+    </div>
+    <div class="subblock"> <img src="/html5_blue/images/3cd871e89f2f6eb8a3a032653a4f8018.jpg"> </div>
+    <div class="subblock">
+      <h3>热门文章</h3>
+      <ul>
+        <li>
+          <div class="sideshow"><a href="/News/1.html" target="_ablank"  title="如果没有略缩图，就不会显示前面的图片！"> <img width='80' height='60' src='/uploads/170530/1-1F5301S915S8.gif' class='icon wp-post-image' alt='如果没有略缩图，就不会显示前面的图片！' title='如果没有略缩图，就不会显示前面的图片！' /> </a> <a href="/News/1.html" target="_ablank"  title="如果没有略缩图，就不会显示前面的图片！"> 如果没有略缩图，就不会显示前面的图片！ </a> <span class="datetime"> 2017/05/30 </span> </div>
+        </li>
+<li>
+          <div class="sideshow"><a href="/News/2.html" target="_ablank"  title="这个没有略缩图，不会显示前面的图片！">  </a> <a href="/News/2.html" target="_ablank"  title="这个没有略缩图，不会显示前面的图片！"> 这个没有略缩图，不会显示前面的图片！ </a> <span class="datetime"> 2016/06/05 </span> </div>
+        </li>
+<li>
+          <div class="sideshow"><a href="/cms/12.html" target="_ablank"  title="Dede两句代码增加自定义属性">  </a> <a href="/cms/12.html" target="_ablank"  title="Dede两句代码增加自定义属性"> Dede两句代码增加自定义属性 </a> <span class="datetime"> 2016/06/05 </span> </div>
+        </li>
+<li>
+          <div class="sideshow"><a href="/cms/11.html" target="_ablank"  title="Dede简单搬家">  </a> <a href="/cms/11.html" target="_ablank"  title="Dede简单搬家"> Dede简单搬家 </a> <span class="datetime"> 2016/06/05 </span> </div>
+        </li>
+<li>
+          <div class="sideshow"><a href="/cms/10.html" target="_ablank"  title="Html技巧-简单的把Table转成Div">  </a> <a href="/cms/10.html" target="_ablank"  title="Html技巧-简单的把Table转成Div"> Html技巧-简单的把Table转成Div </a> <span class="datetime"> 2016/06/05 </span> </div>
+        </li>
+
+      </ul>
+    </div>
+    <div class="subblock"> <img src="/html5_blue/images/3cd871e89f2f6eb8a3a032653a4f8018.jpg"> </div>
+    
+    <div class="subblock linkcat">
+      <h3>友情链接</h3>
+      <ul>
+        
+        <li><a href='http://www.adminbuy.cn/' target='_blank'>织梦模板</a> </li>
+        
+        <li><a href='http://www.adminbuy.cn/' target='_blank'>织梦源码</a> </li>
+        
+        <li><a href='http://www.adminbuy.cn/' target='_blank'>网站模板</a> </li>
+        
+        <li><a href='http://www.adminbuy.cn/' target='_blank'>网站源码</a> </li>
+        
+        <li><a href='http://www.adminbuy.cn/' target='_blank'>模板王</a> </li>
+        
+        <li><a href='http://www.adminbuy.cn/' target='_blank'>手机网站模板</a> </li>
+        
+      </ul>
+    </div>
+    <ul class="widgets">
+    </ul>
+  </div>
+</div>
+ </div>
+<div class="clear"></div>
+﻿<div class="footer">
+  <div class="wrap">
+    <div class="group">
+      <h3>关于本站</h3>
+      <p>网站描述</p>
+    </div>
+    <div class="group">
+      <h3>联系我</h3>
+      <p>
+      <li>AB模板网</li>
+      <li>QQ:9490489</li>
+      </p>
+    </div>
+    <div class="group">
+      <h3>特别鸣谢</h3>
+      <p>
+      <li><span><a href="http://www.adminbuy.cn/" target="_blank">AB模板网</a></span></li>
+      </p>
+    </div>
+    <div class="clear"></div>
+    <p class="ffooter">Copyright &copy; Www.AdminBuy.Cn 版权所有 <a href=http://www.dedecms.com target='_blank'>Power by DedeCms</a> | 苏ICP12345678  </p>
+  </div>
+</div>
+
+</body>
+</html>

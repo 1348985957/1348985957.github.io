@@ -1,0 +1,5 @@
+INSERT INTO `dede_search_keywords` VALUES('1','图片','图片','1','2','1495936483','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','第三方','第三方 第三方','1','0','1495936832','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','Dede','Dede','1','6','1495936949','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','后台验证码','后台验证码 后台 验证','1','1','1495936954','0','0');
+INSERT INTO `dede_search_keywords` VALUES('5','增加自定义','增加自定义 增加 自定义','1','1','1495937470','0','0');
